@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EB9B4309-DEB3-4A6E-B4F5-B41F2B2F42D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example", "example", "{CC75F5E1-A2D8-44CE-950F-EB40AA65A583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuorumMind.Infrastructure.RemoteConfiguration.Core", "src\QuorumMind.Infrastructure.RemoteConfiguration.Core\QuorumMind.Infrastructure.RemoteConfiguration.Core.csproj", "{0A59C14D-DDA2-4531-A6EC-4BBA76C381D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuorumMind.Infrastructure.RemoteConfiguration.Consul", "src\QuorumMind.Infrastructure.RemoteConfiguration.Consul\QuorumMind.Infrastructure.RemoteConfiguration.Consul.csproj", "{FC526B97-8E65-4BF4-BB67-7B72883CA1FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuorumMind.Infrastructure.RemoteConfiguration.AWS.AppConfig", "src\QuorumMind.Infrastructure.RemoteConfiguration.AWS.AppConfig\QuorumMind.Infrastructure.RemoteConfiguration.AWS.AppConfig.csproj", "{2E14DFFE-59BC-4891-9EBC-8032F6A1A271}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuorumMind.Infrastructure.RemoteConfiguration.GCP.Firestore", "src\QuorumMind.Infrastructure.RemoteConfiguration.GCP.Firestore\QuorumMind.Infrastructure.RemoteConfiguration.GCP.Firestore.csproj", "{7CFFA12F-FA0D-4BB2-856B-BECEB6DF0C28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuorumMind.Infrastructure.RemoteConfiguration.ExampleApp", "example\QuorumMind.Infrastructure.RemoteConfiguration.ExampleApp\QuorumMind.Infrastructure.RemoteConfiguration.ExampleApp.csproj", "{A827188F-0238-4C93-A434-C4ED8FF48D37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A59C14D-DDA2-4531-A6EC-4BBA76C381D4} = {EB9B4309-DEB3-4A6E-B4F5-B41F2B2F42D2}
+		{FC526B97-8E65-4BF4-BB67-7B72883CA1FA} = {EB9B4309-DEB3-4A6E-B4F5-B41F2B2F42D2}
+		{2E14DFFE-59BC-4891-9EBC-8032F6A1A271} = {EB9B4309-DEB3-4A6E-B4F5-B41F2B2F42D2}
+		{7CFFA12F-FA0D-4BB2-856B-BECEB6DF0C28} = {EB9B4309-DEB3-4A6E-B4F5-B41F2B2F42D2}
+		{A827188F-0238-4C93-A434-C4ED8FF48D37} = {CC75F5E1-A2D8-44CE-950F-EB40AA65A583}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A59C14D-DDA2-4531-A6EC-4BBA76C381D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A59C14D-DDA2-4531-A6EC-4BBA76C381D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A59C14D-DDA2-4531-A6EC-4BBA76C381D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A59C14D-DDA2-4531-A6EC-4BBA76C381D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC526B97-8E65-4BF4-BB67-7B72883CA1FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC526B97-8E65-4BF4-BB67-7B72883CA1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC526B97-8E65-4BF4-BB67-7B72883CA1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC526B97-8E65-4BF4-BB67-7B72883CA1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E14DFFE-59BC-4891-9EBC-8032F6A1A271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E14DFFE-59BC-4891-9EBC-8032F6A1A271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E14DFFE-59BC-4891-9EBC-8032F6A1A271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E14DFFE-59BC-4891-9EBC-8032F6A1A271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CFFA12F-FA0D-4BB2-856B-BECEB6DF0C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFFA12F-FA0D-4BB2-856B-BECEB6DF0C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFFA12F-FA0D-4BB2-856B-BECEB6DF0C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFFA12F-FA0D-4BB2-856B-BECEB6DF0C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A827188F-0238-4C93-A434-C4ED8FF48D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A827188F-0238-4C93-A434-C4ED8FF48D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A827188F-0238-4C93-A434-C4ED8FF48D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A827188F-0238-4C93-A434-C4ED8FF48D37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

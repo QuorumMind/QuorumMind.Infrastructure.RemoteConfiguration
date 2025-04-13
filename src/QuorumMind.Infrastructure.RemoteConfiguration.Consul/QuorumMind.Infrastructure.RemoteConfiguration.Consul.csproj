@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <IsPackable>true</IsPackable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>QuorumMind.Infrastructure.RemoteConfiguration.Consul</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>David Abaev</Authors>
+        <Company>QuorumMind</Company>
+        <Description>Consul based Remote Configuration provider library for distributed .NET apps</Description>
+        <PackageTags>remote-configuration consul microservices quorum-mind</PackageTags>
+        <RepositoryUrl>https://github.com/QuorumMind/QuorumMind.Infrastructure.RemoteConfiguration</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Consul" Version="1.7.14.7" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\QuorumMind.Infrastructure.RemoteConfiguration.Core\QuorumMind.Infrastructure.RemoteConfiguration.Core.csproj" />
+    </ItemGroup>
+
+</Project>

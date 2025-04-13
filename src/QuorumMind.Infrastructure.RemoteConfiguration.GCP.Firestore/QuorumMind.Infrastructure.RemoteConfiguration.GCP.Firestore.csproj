@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <IsPackable>true</IsPackable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>QuorumMind.Infrastructure.RemoteConfiguration.GCP.Firebase</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>David Abaev</Authors>
+        <Company>QuorumMind</Company>
+        <Description>GCP (Firestore) based Remote Configuration provider library for distributed .NET apps</Description>
+        <PackageTags>remote-configuration gcp firestore microservices quorum-mind</PackageTags>
+        <RepositoryUrl>https://github.com/QuorumMind/QuorumMind.Infrastructure.RemoteConfiguration</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\QuorumMind.Infrastructure.RemoteConfiguration.Core\QuorumMind.Infrastructure.RemoteConfiguration.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Google.Cloud.Firestore" Version="3.10.0" />
+    </ItemGroup>
+
+</Project>
